@@ -47,7 +47,7 @@ public class Login extends JFrame implements ActionListener
             String pass=tf2.getText();
             if(username.equals("java") && pass.equals("java@123"))
             {
-               JOptionPane.showMessageDialog(null,"logged in succesfully :)"); 
+               JOptionPane.showMessageDialog(null,"logged in succesfully,good luck :)"); 
                this.setVisible(false);
                new Rules();
             }
